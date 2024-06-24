@@ -1,0 +1,19 @@
+[INFO ] 2024-06-20 11:53:24.389 [main] LoginStepDefinition - Login is success
+[INFO ] 2024-06-20 11:53:33.156 [main] LoginStepDefinition - Login is second success
+[INFO ] 2024-06-20 16:27:04.942 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-06-20 16:27:15.504 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-06-20 16:27:16.331 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-06-20 16:27:16.433 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-06-20 16:27:25.121 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-06-20 16:27:37.009 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-06-20 16:27:39.973 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-06-20 16:27:43.895 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-06-20 16:27:54.172 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-06-20 16:27:57.436 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-06-20 16:28:41.483 [main] ContactStepDefinition - PDF verification done successfully
+[INFO ] 2024-06-24 16:17:42.927 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-06-24 16:17:57.126 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-06-24 16:17:58.057 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-06-24 16:17:58.180 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-06-24 16:18:07.927 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-06-24 16:18:20.247 [main] HomeStepDefinition - New button clicked successfully
