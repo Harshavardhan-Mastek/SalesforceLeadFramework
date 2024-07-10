@@ -1,8 +1,10 @@
 package SFprojectPackage;
 
 import StepDefinitionPackage.Hook;
+import UtilsPackage.ConstantUtils;
 import UtilsPackage.SeleniumUtils;
-import org.openqa.selenium.JavascriptExecutor;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,6 +36,12 @@ public class HomePage extends Hook {
         return	newButton;
     }
 
+    @FindBy(xpath = "//h2[contains(text(),'New Lead')]")
+    private WebElement newLeadRecordType;
+    public WebElement getNewLeadRecordType() {
+        return	newLeadRecordType;
+    }
+
 
 //Constructor
 
@@ -45,7 +53,9 @@ public class HomePage extends Hook {
 //Homepage
 
 
-        Thread.sleep(7000);
+        Thread.sleep(3000);
+
+        SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssHomePage);
 
         SeleniumUtils.untilElementToBeClickable(applauncher, driver);
         applauncher.click();
@@ -55,11 +65,21 @@ public class HomePage extends Hook {
 
         SeleniumUtils.untilElementToBeClickable(navigateLead, driver);
         navigateLead.click();
+
     }
-    public void  homeLeadNavigateMethod(){
+    public void  homeLeadNavigateMethod() throws Exception {
+
+        Thread.sleep(3000);
+//Assertion for Lead page
+        Assert.assertEquals("Sales",driver.findElement(By.xpath(("(//span[text()='Sales'])[3]"))).getText());
+        System.out.println("Assertion value:- "+driver.findElement(By.xpath(("(//span[text()='Sales'])[3]"))).getText());
+
 
         SeleniumUtils.untilElementToBeClickable(newButton, driver);
         newButton.click();
+
+        Thread.sleep(5000);
+        SeleniumUtils.highLightBackgroundNewLead(driver, newLeadRecordType);
 
     }
 }

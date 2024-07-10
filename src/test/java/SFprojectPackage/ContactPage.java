@@ -1,6 +1,7 @@
 package SFprojectPackage;
 
 import StepDefinitionPackage.Hook;
+import UtilsPackage.ConstantUtils;
 import UtilsPackage.SeleniumUtils;
 import org.apache.commons.mail.DefaultAuthenticator;
 import org.apache.commons.mail.Email;
@@ -71,11 +72,8 @@ public class ContactPage extends Hook {
 
 
 
-    public void ContactMethod() throws Exception {
+    public void contactMethod() throws Exception {
 
-        Thread.sleep(3000);
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("arguments[0].setAttribute('style','background: green; border: 2px solid black;');", contactHighlight);
 
         SeleniumUtils.untilElementToBeClickable(contactLink, driver);
         contactLink.click();
@@ -83,7 +81,7 @@ public class ContactPage extends Hook {
 
     public void uploadFilesMethod() throws Exception{
 
-        //SeleniumUtils.actionMethod();
+
         Thread.sleep(5000);
         Actions act = new Actions(driver);
         Thread.sleep(5000);
@@ -91,6 +89,7 @@ public class ContactPage extends Hook {
         act.keyUp(Keys.END).perform();
 
         Thread.sleep(5000);
+        SeleniumUtils.highLightBackground(driver, uploadfilesButton);
         SeleniumUtils.untilElementToBeClickable(uploadfilesButton, driver);
         uploadfilesButton.click();
 
@@ -112,17 +111,15 @@ public class ContactPage extends Hook {
         downloadButton.click();
         Thread.sleep(3000);
 
+        SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssContactPage);
 
         //Getting the title
         String actualTitle = driver.getTitle();
-        String expectedTitle = "harsh | Contact | Salesforce";
+        String expectedTitle = ConstantUtils.contactTitleAssert;
         assertEquals(expectedTitle,actualTitle);
         System.out.println(actualTitle);
 
-        //Email sent
-       // SeleniumUtils.emailSend();
 
-        //SeleniumUtils.PDFMethod();
     }
 
 

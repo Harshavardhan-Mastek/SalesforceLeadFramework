@@ -4,6 +4,7 @@ import org.apache.commons.mail.DefaultAuthenticator;
 import org.apache.commons.mail.Email;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
+import org.apache.maven.surefire.shared.io.FileUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -16,13 +17,15 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.TakesScreenshot;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.*;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
-
+import java.util.Date;
 
 
 public class SeleniumUtils {
@@ -36,7 +39,7 @@ public class SeleniumUtils {
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public static void typeLoginCreds(WebElement element, String value) {
+    public static void sendkeyValue(WebElement element, String value) {
 
         element.sendKeys(value);
 
@@ -47,7 +50,7 @@ public class SeleniumUtils {
     }
 
 
-    static String path = "C:\\Users\\Harsh1501600\\IdeaProjects\\SalesforceProject\\src\\Excel\\UserDetails.xlsx";
+    static String path = ConstantUtils.excelPath;
 
     static XSSFWorkbook workbook;
 
@@ -74,19 +77,6 @@ public class SeleniumUtils {
     }
 
 
-    //ScreenShot
-
-    public void screenShort(WebElement element, String args) throws Exception {
-
-        TakesScreenshot ts = (TakesScreenshot)  driver;
-
-        File ts2 = ts.getScreenshotAs(OutputType.FILE);
-
-        File f = new File (args);
-
-        FileHandler.copy(ts2, f);
-
-    }
     public static void actionMethod() throws Exception {
 
         Actions act = new Actions(driver);
@@ -140,11 +130,24 @@ public class SeleniumUtils {
     }
 
 
-    public static void highLights(WebElement args) throws Exception {
+    public static void highLightBordor(WebDriver driver, WebElement element) throws Exception {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("arguments[0].setAttribute('style','background: yellow; border: 2px solid black;');", args);
+        jse.executeScript("arguments[0].setAttribute('style','background: white; border: 2px solid green;');", element);
 
     }
+
+    public static void highLightBackground(WebDriver driver, WebElement element) throws Exception {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].setAttribute('style','background: yellow; border: 2px solid red;');", element);
+
+    }
+
+    public static void highLightBackgroundNewLead(WebDriver driver, WebElement element) throws Exception {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].setAttribute('style','background: blue; border: 2px solid black;');", element);
+
+    }
+
     public void clkMethod(WebElement element) {
 
         element.click();
@@ -154,17 +157,39 @@ public class SeleniumUtils {
     public static void emailSend() throws EmailException {
 
         Email email = new SimpleEmail();
-        email.setHostName("smtp.googlemail.com");
+        email.setHostName("smtp.gmail.com");
         email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator("harshavardhan.selvaraj@mastek.com", "Virat@123"));
+        email.setAuthenticator(new DefaultAuthenticator("harshaselva14@gmail.com", "Harsha@123"));
         email.setSSLOnConnect(true);
-        email.setFrom("dhanalakshmi.rajamanickam@mastek.com");
+        email.setFrom("harshaselva14@gmail.com");
         email.setSubject("Email Report");
         email.setMsg("The mail successfully to report");
-        email.addTo("dhanalakshmi.rajamanickam@mastek.com");
+        email.addTo("harshaselva14@gmail.com");
         email.send();
 
     }
+
+    public static void captureScreenshot(WebDriver driver,String screenshotName)
+    {
+
+        try
+        {
+            TakesScreenshot ts=(TakesScreenshot)driver;
+
+            File source=ts.getScreenshotAs(OutputType.FILE);
+
+            FileHandler.copy(source, new File(ConstantUtils.screenshotPath +screenshotName+ ConstantUtils.screenshotExtension));
+
+        }
+        catch (Exception e)
+        {
+
+            System.out.println("Exception while taking screenshot "+e.getMessage());
+        }
+    }
+
+
+
 
     public void quitBrowser() {
 

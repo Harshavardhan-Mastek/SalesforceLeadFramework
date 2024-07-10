@@ -1,7 +1,9 @@
 package SFprojectPackage;
 
 import StepDefinitionPackage.Hook;
+import UtilsPackage.ConstantUtils;
 import UtilsPackage.SeleniumUtils;
+import cucumber.runtime.io.Helpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,27 +37,32 @@ public class LoginPage extends Hook {
         PageFactory.initElements(Hook.driver, this);
     }
 
-    public void loginCredentials() throws Exception {
+    public void loginURL() throws Exception {
 
         Hook.setup();
 
-        driver.get("https://login.salesforce.com/?locale=in");
+        driver.get(ConstantUtils.urlPath);
+
+//Screenshot
+
+        SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssLoginPage);
 
     }
-    public void UsernameMethod() throws Exception {
+    public void usernameMethod() throws Exception {
 
+        SeleniumUtils.highLightBordor(driver, username);
 
+        SeleniumUtils.sendkeyValue(username,SeleniumUtils.loginExcelData(0,0, 1));
 
-        SeleniumUtils.typeLoginCreds(username,SeleniumUtils.loginExcelData(0,0, 1));
 
     }
-    public void PasswordMethod() throws Exception {
+    public void passwordMethod() throws Exception {
 
-
-        SeleniumUtils.typeLoginCreds(password,SeleniumUtils.loginExcelData(0,1, 1));
+        SeleniumUtils.highLightBordor(driver, password);
+        SeleniumUtils.sendkeyValue(password,SeleniumUtils.loginExcelData(0,1, 1));
 
     }
-    public void LoginMethod() throws Exception {
+    public void loginMethod() throws Exception {
 
         login.click();
     }

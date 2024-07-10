@@ -14,38 +14,30 @@ public class LoginStepDefinition extends Hook {
 
     private static final Logger log = LogManager.getLogger(LoginStepDefinition.class);
 
-    @Given("User should be able to enter the salesforce URL")
-    public void userShouldBeAbleToEnterTheSalesforceURL() throws Exception{
-
-        log.info("URL Opened successfully");
-
-        System.out.println("checking");
+    @Given("User should be able to enter the salesforce Url")
+    public void userShouldBeAbleToEnterTheSalesforceUrl() throws Exception{
 
         LoginPage loginUrl = new LoginPage(driver);
-
-
-        loginUrl.loginCredentials();
+        loginUrl.loginURL();
+        log.info("URL Opened successfully");
 
     }
 
     @When("User should be able to enter the Username")
     public void userShouldBeAbleToEnterTheUsername() throws Exception{
 
-        log.info("Username is entered successfully");
-
         LoginPage loginUsername = new LoginPage(driver);
-
-        loginUsername.UsernameMethod();
+        loginUsername.usernameMethod();
+        log.info("Username is entered successfully");
 
     }
 
     @Then("User should be able to enter password")
     public void user_should_be_able_to_enter_password() throws Exception {
 
-        log.info("Password is entered successfully");
-
         LoginPage loginPassword = new LoginPage(driver);
-        loginPassword.PasswordMethod();
+        loginPassword.passwordMethod();
+        log.info("Password is entered successfully");
 
     }
 
@@ -53,10 +45,9 @@ public class LoginStepDefinition extends Hook {
     public void user_should_be_able_to_click_the_login_button() throws Exception
     {
 
-        log.info("login button is clicked successfully");
         LoginPage loginButton = new LoginPage(driver);
-
-        loginButton.LoginMethod();
+        loginButton.loginMethod();
+        log.info("login button is clicked successfully");
 
     }
 
