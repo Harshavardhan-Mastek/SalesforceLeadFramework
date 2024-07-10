@@ -21,26 +21,20 @@ public class ContactStepDefinition extends Hook
     @Given("User should be able to click contact hyperlink")
     public void userShouldBeAbleToClickContactHyperlink() throws Exception {
 
-        log.info("Hyperlink clicked successfully");
         ContactPage contactLink = new ContactPage(driver);
-        contactLink.ContactMethod();
-
+        contactLink.contactMethod();
+        log.info("Hyperlink clicked successfully");
     }
 
     @When("User should be able to click of upload files and attach the PDF document in notes and attachment")
     public void userShouldBeAbleToClickOfUploadFilesAndAttachThePDFDocumentInNotesAndAttachment() throws Exception {
 
-        log.info("upload the files successfully");
+
         ContactPage uploadPdfVerification = new ContactPage(driver);
         uploadPdfVerification.uploadFilesMethod();
+        log.info("upload the files successfully");
 
     }
 
 
-    @Then("User should be able to navigate inside PDF and verify the name")
-    public void userShouldBeAbleToNavigateInsidePDFAndVerifyTheName() {
-
-        log.info("PDF verification done successfully");
-        System.out.println("Logout done");
-    }
 }

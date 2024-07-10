@@ -1,4 +1,4 @@
-Feature: Navigating to Lead object via App launcher
+Feature: Navigating from Home page to  Lead object via App launcher
 
     Scenario: Verify the user is able to land on home page and navigate to lead
 

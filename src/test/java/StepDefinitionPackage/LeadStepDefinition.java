@@ -12,25 +12,24 @@ public class LeadStepDefinition extends Hook {
 
     private static final Logger log = LogManager.getLogger(LeadStepDefinition.class);
 
-    public LeadStepDefinition() throws AWTException {
-    }
-
 
     @Given("User should be able to create a lead record")
     public void userShouldBeAbleToCreateALeadRecord() throws Exception {
 
-        log.info("Created a lead record successfully");
+
         LeadPage beforeConvertMethod = new LeadPage(driver);
-        beforeConvertMethod.LeadCreationMethod();
+        beforeConvertMethod.leadCreationMethod();
+        log.info("Created a lead record successfully");
 
     }
 
     @Then("User should be able to convert the lead record")
-    public void userShouldBeAbleToConvertTheLeadRecord() throws InterruptedException, AWTException {
+    public void userShouldBeAbleToConvertTheLeadRecord() throws Exception {
 
-        log.info("Converted a lead record successfully");
+
         LeadPage leadConversion = new LeadPage(driver);
-        leadConversion.LeadConvertMethod();
+        leadConversion.leadConvertMethod();
+        log.info("Converted a lead record successfully");
 
     }
 
