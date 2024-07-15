@@ -6,7 +6,7 @@
         <parameter name="Browser" value="Edge">
         </parameter>
         <classes>
-            <class name="RunnerPackage.RunnerTestClass">
+            <class name="edu.mastek.runnerPackage.RunnerTestClass">
             </class>
         </classes>
     </test>
@@ -15,7 +15,7 @@
         <parameter name="Browser" value="Chrome">
         </parameter>
         <classes>
-            <class name="RunnerPackage.RunnerTestClass">
+            <class name="edu.mastek.runnerPackage.RunnerTestClass">
             </class>
         </classes>
     </test>

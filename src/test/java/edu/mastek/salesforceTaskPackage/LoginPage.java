@@ -1,9 +1,8 @@
-package SFprojectPackage;
+package edu.mastek.salesforceTaskPackage;
 
-import StepDefinitionPackage.Hook;
-import UtilsPackage.ConstantUtils;
-import UtilsPackage.SeleniumUtils;
-import cucumber.runtime.io.Helpers;
+import edu.mastek.stepdefinitionPackage.Hook;
+import edu.mastek.utilsPackage.ConstantUtils;
+import edu.mastek.utilsPackage.SeleniumUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

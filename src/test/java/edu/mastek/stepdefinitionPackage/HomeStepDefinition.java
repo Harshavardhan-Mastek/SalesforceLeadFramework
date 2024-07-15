@@ -1,6 +1,6 @@
-package StepDefinitionPackage;
+package edu.mastek.stepdefinitionPackage;
 
-import SFprojectPackage.HomePage;
+import edu.mastek.salesforceTaskPackage.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.apache.logging.log4j.LogManager;
@@ -13,10 +13,10 @@ public class HomeStepDefinition extends Hook {
 
     @Given("User should be able to click on app launcher and enter Lead")
     public void user_should_be_able_to_click_on_app_launcher_and_enter_lead() throws Exception {
-
         HomePage appLauncher = new HomePage(driver);
         appLauncher.homeMethod();
         log.info("applaunch clicked successfully");
+
 
     }
 
@@ -28,4 +28,6 @@ public class HomeStepDefinition extends Hook {
         log.info("New button clicked successfully");
 
     }
+    //-----------------------
+
 }

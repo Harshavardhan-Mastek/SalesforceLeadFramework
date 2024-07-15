@@ -1,294 +1,146 @@
-[INFO ] 2024-07-10 11:00:05.749 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:00:17.821 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:00:19.856 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:00:20.217 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:00:29.498 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:00:38.724 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:00:42.143 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:00:48.269 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:00:58.609 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:01:01.838 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 11:01:46.318 [main] ContactStepDefinition - PDF verification done successfully
-[INFO ] 2024-07-10 11:05:01.702 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:05:07.892 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:05:09.322 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:05:09.492 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:05:15.723 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:05:24.312 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:05:27.679 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:05:30.360 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:05:40.646 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:05:43.896 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 11:14:35.322 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:14:41.372 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:14:42.300 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:14:42.409 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:14:48.887 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:14:57.062 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:15:00.361 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:15:02.943 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:15:18.286 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:15:21.518 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 11:16:48.463 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:16:53.915 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:16:55.014 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:16:55.161 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:17:01.599 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:17:10.047 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:17:13.107 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:17:33.372 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:19:11.198 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:19:16.397 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:19:17.087 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:19:17.209 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:19:24.032 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:19:32.179 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:19:35.410 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:19:38.709 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:19:53.999 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:19:57.212 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 11:52:34.087 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:52:42.958 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:52:44.225 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:52:44.358 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:52:51.474 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:52:59.833 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:53:03.118 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:53:06.729 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:53:22.223 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 11:53:25.573 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 11:54:33.240 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 11:54:40.494 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 11:54:41.515 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 11:54:41.658 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 11:54:53.721 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 11:55:03.288 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 11:55:06.636 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 11:55:09.544 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 11:55:25.028 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:03:05.879 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:03:13.285 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:03:14.822 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:03:15.037 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:03:23.745 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:03:32.210 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:03:35.502 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:03:38.969 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 12:05:41.403 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:05:47.522 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:05:48.446 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:05:48.555 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:05:56.538 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:06:05.528 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:06:08.817 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:06:11.888 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:09:20.070 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:09:26.317 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:09:27.805 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:09:28.007 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:09:36.640 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:09:45.139 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:09:48.425 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:09:51.960 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 12:20:29.995 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:20:36.200 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:20:37.359 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:20:37.466 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:20:45.913 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:20:54.419 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:20:57.702 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:21:00.905 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:25:03.506 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:25:10.654 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:25:11.734 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:25:11.842 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:25:19.987 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:25:28.393 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:25:31.753 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:25:34.429 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:31:04.061 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:31:10.508 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:31:11.594 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:31:11.833 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:31:20.032 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:31:28.474 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:31:31.748 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:31:34.888 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:38:16.874 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:38:23.078 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:38:24.202 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:38:24.383 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:38:33.931 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:38:42.633 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:38:45.980 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:38:48.421 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:45:05.618 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:45:12.047 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:45:13.675 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:45:13.887 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:45:20.916 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:45:29.516 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:45:32.806 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:45:35.962 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 12:47:12.365 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 12:47:18.306 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 12:47:19.228 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 12:47:19.407 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 12:47:27.657 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 12:47:36.133 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 12:47:39.463 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 12:47:42.647 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:00:04.707 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:00:11.363 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:00:12.105 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:00:12.239 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:00:22.827 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:00:31.049 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:00:34.311 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:00:37.703 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:03:36.829 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:03:45.032 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:03:46.390 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:03:46.652 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:03:55.234 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:04:03.642 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:04:06.961 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:04:09.594 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:08:45.380 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:08:52.155 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:08:53.508 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:08:53.661 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:09:02.092 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:09:10.679 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:09:13.976 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:09:17.384 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:36:17.292 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:36:23.594 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:36:24.555 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:36:24.643 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:36:34.756 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:36:42.827 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:36:46.105 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:36:49.341 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:37:04.675 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:37:07.932 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 13:39:09.816 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:39:14.868 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:39:15.571 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:39:15.695 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:39:21.897 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:39:29.863 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:39:33.095 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:39:36.325 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:40:07.003 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:41:22.013 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:41:27.341 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:41:28.425 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:41:28.525 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:41:36.128 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:41:45.402 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:41:48.632 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:41:51.727 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:44:50.141 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:44:55.077 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:44:56.032 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:44:56.195 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:45:03.508 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:45:12.228 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:45:15.505 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:45:20.329 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:47:08.781 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:47:15.207 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:47:16.225 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:47:16.373 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:47:26.567 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:47:35.197 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:47:38.938 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:47:43.771 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 13:48:46.967 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:48:52.156 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:48:52.923 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:48:53.019 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:48:53.543 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:49:17.214 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:49:37.694 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 13:55:13.653 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 13:55:18.443 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 13:55:19.422 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 13:55:19.529 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 13:55:25.793 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 13:55:34.412 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 13:55:37.635 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 13:55:40.667 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 14:16:55.595 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:17:01.757 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:17:02.682 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:17:02.784 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:17:08.973 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 14:17:17.570 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 14:17:20.862 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 14:17:24.386 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 14:17:39.687 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 14:17:42.878 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 14:35:46.677 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:35:51.838 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:35:52.924 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:35:53.085 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:35:57.850 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 14:45:04.408 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:45:09.469 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:45:10.442 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:45:10.613 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:45:20.375 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 14:45:29.574 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 14:45:32.779 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 14:45:38.707 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 14:45:54.039 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 14:45:57.287 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 14:48:23.826 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:48:28.920 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:48:30.304 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:48:30.479 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:48:36.272 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 14:48:44.367 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 14:48:47.617 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 14:48:51.899 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 14:49:07.218 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 14:49:10.432 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 14:49:54.806 [main] ContactStepDefinition - PDF verification done successfully
-[INFO ] 2024-07-10 14:55:17.762 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:55:22.718 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:55:23.679 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:55:23.804 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:55:29.552 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 14:55:37.577 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 14:55:40.888 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 14:55:44.803 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 14:59:36.369 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 14:59:42.125 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 14:59:43.176 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 14:59:43.359 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 14:59:53.869 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 15:00:00.405 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 15:00:20.728 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 15:00:37.332 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 15:00:42.229 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 15:00:43.254 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 15:00:43.434 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 15:00:53.868 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 15:01:02.943 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 15:01:09.344 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 15:01:13.344 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 15:01:28.700 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 15:01:31.954 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 16:23:26.565 [main] LoginStepDefinition - URL Opened successfully
-[INFO ] 2024-07-10 16:24:05.767 [main] LoginStepDefinition - Username is entered successfully
-[INFO ] 2024-07-10 16:24:07.301 [main] LoginStepDefinition - Password is entered successfully
-[INFO ] 2024-07-10 16:24:07.635 [main] LoginStepDefinition - login button is clicked successfully
-[INFO ] 2024-07-10 16:24:18.520 [main] HomeStepDefinition - applaunch clicked successfully
-[INFO ] 2024-07-10 16:24:27.231 [main] HomeStepDefinition - New button clicked successfully
-[INFO ] 2024-07-10 16:24:35.635 [main] LeadStepDefinition - Created a lead record successfully
-[INFO ] 2024-07-10 16:24:40.002 [main] LeadStepDefinition - Converted a lead record successfully
-[INFO ] 2024-07-10 16:24:55.490 [main] ContactStepDefinition - Hyperlink clicked successfully
-[INFO ] 2024-07-10 16:24:58.798 [main] ContactStepDefinition - upload the files successfully
-[INFO ] 2024-07-10 16:25:43.644 [main] ContactStepDefinition - PDF verification done successfully
+[INFO ] 2024-07-15 11:51:31.819 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 11:51:32.803 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 11:51:32.937 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 11:51:42.432 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 11:51:51.254 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 11:51:59.621 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 11:52:04.092 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 11:52:19.529 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 11:52:19.765 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 11:53:14.995 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 12:01:13.169 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 12:01:14.302 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 12:01:14.492 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 12:01:20.392 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 12:01:29.498 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 12:01:37.840 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 12:01:41.365 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 12:01:56.948 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 12:01:57.251 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 12:02:52.419 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 12:13:28.060 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 12:13:28.901 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 12:13:29.016 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 12:13:36.245 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 12:13:45.743 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 12:13:54.175 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 12:13:57.711 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 12:14:13.207 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 12:14:13.521 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 12:15:08.539 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 12:26:17.614 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 12:26:18.815 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 12:26:18.967 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 12:26:26.477 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 12:26:35.167 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 12:26:43.439 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 12:26:47.605 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 12:27:03.176 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 12:27:03.484 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 12:27:58.634 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 12:52:39.954 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 12:52:41.038 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 12:52:41.260 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 12:52:49.416 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 12:52:57.727 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 12:53:06.325 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 12:54:09.409 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 12:54:10.631 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 12:54:10.822 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 12:54:17.674 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 12:54:27.731 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 12:54:36.099 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 12:54:39.834 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 12:54:55.470 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 12:54:55.804 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 12:55:50.952 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 13:46:57.887 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 13:46:58.874 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 13:46:59.067 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 13:47:07.098 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 13:47:16.486 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 13:47:24.924 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 13:47:29.580 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 13:47:45.103 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 13:47:45.472 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 13:48:40.790 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 15:51:00.006 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 15:51:01.402 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 15:51:01.670 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 15:51:09.812 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 15:51:18.655 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 15:51:27.238 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 15:51:31.895 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 15:51:47.399 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 15:51:47.726 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 15:52:43.077 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 15:52:52.198 [main] MentorStepDefinition - Negative scenrio succesfully done
+[INFO ] 2024-07-15 16:00:35.677 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 16:00:37.222 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 16:00:37.654 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 16:00:48.935 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 16:00:57.580 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 16:01:05.930 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 16:01:09.778 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 16:01:25.340 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 16:01:25.710 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 16:02:27.351 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 16:02:28.022 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 16:02:28.174 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 16:02:39.200 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 16:02:50.123 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 16:02:58.405 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 16:03:01.779 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 16:03:17.503 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 16:03:18.002 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 16:04:44.659 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 16:04:45.744 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 16:04:45.892 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 16:04:53.937 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 16:05:47.146 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 16:05:48.190 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 16:05:48.321 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 16:05:56.020 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 16:06:04.579 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 16:06:13.003 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 16:06:17.120 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 16:06:32.700 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 16:06:33.009 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 16:07:28.284 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 21:53:56.652 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 21:53:57.552 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 21:53:57.809 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 21:54:00.379 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 21:54:47.328 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 21:54:48.909 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 21:54:49.137 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 21:54:55.286 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 21:55:03.700 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 21:55:12.176 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 21:55:16.529 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 21:55:32.092 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 21:55:32.401 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 21:56:27.505 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 21:56:36.525 [main] MentorStepDefinition - Negative scenrio succesfully done
+[INFO ] 2024-07-15 22:06:45.830 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 22:06:46.867 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 22:06:47.081 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 22:06:54.565 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 22:07:03.793 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 22:07:12.259 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 22:07:16.455 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 22:07:31.917 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 22:07:32.183 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 22:08:27.076 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 22:08:53.462 [main] MentorStepDefinition - Negative scenrio succesfully done
+[INFO ] 2024-07-15 22:19:35.901 [main] LoginStepDefinition - URL Opened successfully
+[INFO ] 2024-07-15 22:19:37.036 [main] LoginStepDefinition - Username is entered successfully
+[INFO ] 2024-07-15 22:19:37.287 [main] LoginStepDefinition - Password is entered successfully
+[INFO ] 2024-07-15 22:19:44.062 [main] LoginStepDefinition - login button is clicked successfully
+[INFO ] 2024-07-15 22:19:53.206 [main] HomeStepDefinition - applaunch clicked successfully
+[INFO ] 2024-07-15 22:20:01.615 [main] HomeStepDefinition - New button clicked successfully
+[INFO ] 2024-07-15 22:20:05.825 [main] LeadStepDefinition - Created a lead record successfully
+[INFO ] 2024-07-15 22:20:21.367 [main] LeadStepDefinition - Converted a lead record successfully
+[INFO ] 2024-07-15 22:20:21.684 [main] ContactStepDefinition - Hyperlink clicked successfully
+[INFO ] 2024-07-15 22:21:16.550 [main] ContactStepDefinition - upload the files successfully
+[INFO ] 2024-07-15 22:21:40.058 [main] MentorStepDefinition - Negative scenrio succesfully done
