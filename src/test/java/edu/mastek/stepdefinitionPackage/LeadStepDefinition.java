@@ -1,12 +1,10 @@
-package StepDefinitionPackage;
+package edu.mastek.stepdefinitionPackage;
 
-import SFprojectPackage.LeadPage;
+import edu.mastek.salesforceTaskPackage.LeadPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.awt.*;
 
 public class LeadStepDefinition extends Hook {
 

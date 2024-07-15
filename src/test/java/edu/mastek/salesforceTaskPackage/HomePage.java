@@ -1,8 +1,8 @@
-package SFprojectPackage;
+package edu.mastek.salesforceTaskPackage;
 
-import StepDefinitionPackage.Hook;
-import UtilsPackage.ConstantUtils;
-import UtilsPackage.SeleniumUtils;
+import edu.mastek.stepdefinitionPackage.Hook;
+import edu.mastek.utilsPackage.ConstantUtils;
+import edu.mastek.utilsPackage.SeleniumUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -42,6 +42,11 @@ public class HomePage extends Hook {
         return	newLeadRecordType;
     }
 
+    @FindBy(xpath = "//span[text()='NewLead']")
+    private WebElement newLeadColor;
+    public WebElement getnewLeadColor() {
+        return	newLeadColor;
+    }
 
 //Constructor
 
@@ -80,6 +85,8 @@ public class HomePage extends Hook {
 
         Thread.sleep(5000);
         SeleniumUtils.highLightBackgroundNewLead(driver, newLeadRecordType);
+
+        SeleniumUtils.highLightBackground(driver,newLeadColor);
 
     }
 }

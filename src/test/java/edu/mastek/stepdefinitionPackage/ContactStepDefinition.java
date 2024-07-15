@@ -1,8 +1,7 @@
-package StepDefinitionPackage;
+package edu.mastek.stepdefinitionPackage;
 
-import SFprojectPackage.ContactPage;
+import edu.mastek.salesforceTaskPackage.ContactPage;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

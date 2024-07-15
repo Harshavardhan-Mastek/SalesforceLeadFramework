@@ -1,8 +1,8 @@
-package SFprojectPackage;
+package edu.mastek.salesforceTaskPackage;
 
-import StepDefinitionPackage.Hook;
-import UtilsPackage.ConstantUtils;
-import UtilsPackage.SeleniumUtils;
+import edu.mastek.stepdefinitionPackage.Hook;
+import edu.mastek.utilsPackage.ConstantUtils;
+import edu.mastek.utilsPackage.SeleniumUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -171,6 +171,8 @@ public class LeadPage extends Hook {
 
 
         Thread.sleep(5000);
+        SeleniumUtils.highLightBackground(driver,convertBtn);
+
         SeleniumUtils.untilElementToBeClickable(convertBtn, driver);
         convertBtn.click();
 
