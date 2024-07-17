@@ -8,13 +8,14 @@ import org.apache.logging.log4j.Logger;
 
 public class LeadStepDefinition extends Hook {
 
+    // Logger for Lead step definition
     private static final Logger log = LogManager.getLogger(LeadStepDefinition.class);
 
 
     @Given("User should be able to create a lead record")
     public void userShouldBeAbleToCreateALeadRecord() throws Exception {
 
-
+//Object creation of Lead page
         LeadPage beforeConvertMethod = new LeadPage(driver);
         beforeConvertMethod.leadCreationMethod();
         log.info("Created a lead record successfully");
@@ -24,7 +25,7 @@ public class LeadStepDefinition extends Hook {
     @Then("User should be able to convert the lead record")
     public void userShouldBeAbleToConvertTheLeadRecord() throws Exception {
 
-
+//Object creation of Lead page
         LeadPage leadConversion = new LeadPage(driver);
         leadConversion.leadConvertMethod();
         log.info("Converted a lead record successfully");

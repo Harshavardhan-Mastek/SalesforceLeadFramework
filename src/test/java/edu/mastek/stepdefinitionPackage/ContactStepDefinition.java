@@ -11,15 +11,14 @@ import java.awt.*;
 
 public class ContactStepDefinition extends Hook
 {
+    // Logger for Contact step definition
     private static final Logger log = LogManager.getLogger(ContactStepDefinition.class);
 
-    public ContactStepDefinition() throws AWTException {
-
-    }
 
     @Given("User should be able to click contact hyperlink")
     public void userShouldBeAbleToClickContactHyperlink() throws Exception {
 
+        //Object creation of Contact page
         ContactPage contactLink = new ContactPage(driver);
         contactLink.contactMethod();
         log.info("Hyperlink clicked successfully");
@@ -28,7 +27,7 @@ public class ContactStepDefinition extends Hook
     @When("User should be able to click of upload files and attach the PDF document in notes and attachment")
     public void userShouldBeAbleToClickOfUploadFilesAndAttachThePDFDocumentInNotesAndAttachment() throws Exception {
 
-
+        //Object creation of Contact page
         ContactPage uploadPdfVerification = new ContactPage(driver);
         uploadPdfVerification.uploadFilesMethod();
         log.info("upload the files successfully");

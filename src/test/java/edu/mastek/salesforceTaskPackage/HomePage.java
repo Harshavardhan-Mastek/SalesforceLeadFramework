@@ -4,7 +4,6 @@ import edu.mastek.stepdefinitionPackage.Hook;
 import edu.mastek.utilsPackage.ConstantUtils;
 import edu.mastek.utilsPackage.SeleniumUtils;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,6 +47,13 @@ public class HomePage extends Hook {
         return	newLeadColor;
     }
 
+    @FindBy(xpath = "(//span[text()='Service'])[3]")
+    private WebElement salesAssert;
+    public WebElement getsalesAssert() {
+        return	salesAssert;
+    }
+
+
 //Constructor
 
     public HomePage(WebDriver driver) {
@@ -55,36 +61,42 @@ public class HomePage extends Hook {
         PageFactory.initElements(driver, this);
     }
     public void homeMethod() throws Exception {
+
+
 //Homepage
 
+        //Screenshot for Home page
 
-        Thread.sleep(3000);
-
+                                                                                                                                                                                                                                                                                                                                                                          Thread.sleep(3000);
         SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssHomePage);
 
         SeleniumUtils.untilElementToBeClickable(applauncher, driver);
         applauncher.click();
 
-        Thread.sleep(3000);
+                                                                                                                                                                                                                                                                                                                                                                       Thread.sleep(3000);
         enterLead.sendKeys("Leads");
 
         SeleniumUtils.untilElementToBeClickable(navigateLead, driver);
         navigateLead.click();
 
     }
+
+    //From Home to Lead object
+
     public void  homeLeadNavigateMethod() throws Exception {
 
-        Thread.sleep(3000);
+
 //Assertion for Lead page
-        Assert.assertEquals("Sales",driver.findElement(By.xpath(("(//span[text()='Sales'])[3]"))).getText());
-        System.out.println("Assertion value:- "+driver.findElement(By.xpath(("(//span[text()='Sales'])[3]"))).getText());
+        Thread.sleep(3000);
+        Assert.assertEquals("Service",salesAssert.getText());
+        System.out.println("Assertion value:- "+salesAssert.getText());
 
 
         SeleniumUtils.untilElementToBeClickable(newButton, driver);
         newButton.click();
 
-        Thread.sleep(5000);
-        SeleniumUtils.highLightBackgroundNewLead(driver, newLeadRecordType);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             Thread.sleep(5000);
+
 
         SeleniumUtils.highLightBackground(driver,newLeadColor);
 
