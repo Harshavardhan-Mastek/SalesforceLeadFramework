@@ -31,9 +31,8 @@ public class ConstantUtils {
 
     public static String  toMailID=  "rntdhana@gmail.com"; //rntdhana@gmail.com
     public static String  subjectMail =  "Lead creation process";
-    public static String  textAreaMail =   "Hi,\n The lead creation was done, \n And also converted successfully, \n Attachements added in this mail., \n Thanks & Regards, \n QA Automation Team ";
+    public static String  textAreaMail =   "Hi,\n The lead creation was done, \n And also converted successfully, \n Attachements added in this mail.,\n   \n Thanks & Regards, \n QA Automation Team ";
     public static String  zipFile = "C:\\Users\\Harsh1501600\\IdeaProjects\\SalesforceLeadFramework\\cucumber-reports.zip";
 
 
 }
-

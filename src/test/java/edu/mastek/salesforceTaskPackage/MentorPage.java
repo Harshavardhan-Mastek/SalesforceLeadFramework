@@ -12,6 +12,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MentorPage extends Hook {
 
+    //Constructor
+
     public MentorPage(WebDriver driver) {
 
         PageFactory.initElements(driver, this);
@@ -19,9 +21,6 @@ public class MentorPage extends Hook {
 
     @FindBy(xpath = "(//span[text()='Mentors'])[1]")
     private WebElement mentorObject;
-
-
-
     public WebElement getmentorObject() {
         return mentorObject;
     }
@@ -33,7 +32,7 @@ public class MentorPage extends Hook {
         return newButton;
     }
 
-    @FindBy(xpath = "//input[@name='Name']")
+    @FindBy(xpath = "//input[@name='Name1']")
     private WebElement mentorName;
 
     public WebElement getmentorName() {
@@ -75,7 +74,7 @@ public class MentorPage extends Hook {
         return saveButton;
     }
 
-    public static Scenario scenario;
+    //public static Scenario scenario;
 
     public void mentorRecordMethod() throws Exception {
 
@@ -84,15 +83,16 @@ public class MentorPage extends Hook {
         JavascriptExecutor jsclick = (JavascriptExecutor) driver;
         jsclick.executeScript("arguments[0].click()", mentorObject);
 
-        Thread.sleep(3000);
+                                                                                                                                                                                                                                                                                                                                                                                 Thread.sleep(3000);
         SeleniumUtils.untilElementToBeClickable(newButton, driver);
         newButton.click();
 
         SeleniumUtils.untilElementToBeClickable(phoneNumber, driver);
         phoneNumber.sendKeys(ConstantUtils.PhnNumber);
 
-        Thread.sleep(3000);
-        //Assertion
+       // Thread.sleep(3000);
+
+        //Assertion for error message for mentor name
         Assert.assertEquals(ConstantUtils.assertErrorMessage, errorValue.getText());
 
         SeleniumUtils.untilElementToBeClickable(descriptionText, driver);
@@ -102,16 +102,16 @@ public class MentorPage extends Hook {
         currency.sendKeys(ConstantUtils.currValue);
 
         SeleniumUtils.highLightBackground(driver, saveButton);
-
-        //       To show the error message of Mentor name
-
-            SeleniumUtils.untilElementToBeClickable(mentorName, driver);
-            mentorName.sendKeys(ConstantUtils.mentor);
-
-
+        saveButton.click();
+        //Screenshot for Mentor
         SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssmentornegative);
 
-        Hook.mailReport();
+        //After class from Hook method
+        Hook.closeBrowser();
+
+        //To show the error message of Mentor name
+        SeleniumUtils.untilElementToBeClickable(mentorName, driver);
+        mentorName.sendKeys(ConstantUtils.mentor);
 
 
                     

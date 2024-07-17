@@ -80,6 +80,9 @@ public class ContactPage extends Hook {
         contactLink.click();
     }
 
+
+// File uploading in Notes & Attachments
+
     public void uploadFilesMethod() throws Exception{
 
 
@@ -97,7 +100,7 @@ public class ContactPage extends Hook {
         //Pdf location copy
                                                                                                                                                                                                                                                            Thread.sleep(5000);
         SeleniumUtils.copyMethod();
-        Thread.sleep(5000);
+                                                                                                                                                                                                                                                                                      Thread.sleep(5000);
         SeleniumUtils.robotMethod();
 
         Thread.sleep(5000);
@@ -119,9 +122,9 @@ public class ContactPage extends Hook {
         String actualTitle = driver.getTitle();
         String expectedTitle = ConstantUtils.contactTitleAssert;
         assertEquals(expectedTitle,actualTitle);
-        System.out.println(actualTitle);
+        System.out.println("Title of the page:- "+actualTitle);
 
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
         closeButton.click();
 
     }

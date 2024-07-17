@@ -9,14 +9,15 @@ import org.apache.logging.log4j.Logger;
 
 public class MentorStepDefinition extends Hook {
 
+    // Logger for mentor step definition
     private static final Logger log = LogManager.getLogger(MentorStepDefinition.class);
 
 
     @Given("User should be able to click mentor object and fill the mentor details except mentor name")
     public void userShouldBeAbleToClickMentorObjectAndFillTheMentorDetailsExceptMentorName() throws Exception {
 
+         //Object creation of mentor page
         MentorPage mentor = new MentorPage(driver);
-
         mentor.mentorRecordMethod();
         log.info("Negative scenrio succesfully done");
 

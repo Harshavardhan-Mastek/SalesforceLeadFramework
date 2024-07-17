@@ -30,7 +30,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 
-import static edu.mastek.salesforceTaskPackage.MentorPage.scenario;
+
 
 
 public class SeleniumUtils {
@@ -39,7 +39,7 @@ public class SeleniumUtils {
 
 
 
-//Explicit wait
+    //Explicit wait
     public static void untilElementToBeClickable(WebElement element, WebDriver driver) {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20) );
         wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -56,7 +56,7 @@ public class SeleniumUtils {
     }
 
 
-    static String path = ConstantUtils.excelPath;
+    static String path = edu.mastek.utilsPackage.ConstantUtils.excelPath;
 
     static XSSFWorkbook workbook;
 
@@ -89,7 +89,7 @@ public class SeleniumUtils {
 
         act.keyDown(Keys.END).perform();
         act.keyUp(Keys.END).perform();
-   }
+    }
     public static void robotMethod1() throws AWTException {
 
         Robot rob1 = new Robot();
@@ -110,26 +110,26 @@ public class SeleniumUtils {
 
     public static void copyMethod(){
 
-    StringSelection stringFileToFormate = new StringSelection("C:\\Users\\Harsh1501600\\Desktop\\CertificateOfCompletion.pdf");
-    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringFileToFormate,null);
-}
+        StringSelection stringFileToFormate = new StringSelection("C:\\Users\\Harsh1501600\\Desktop\\CertificateOfCompletion.pdf");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringFileToFormate,null);
+    }
 
     public static void PDFMethod() throws IOException {
 
-    String url = "https://mastek-15d-dev-ed.develop.lightning.force.com/lightning/r/Contact/0035i0000KEia8dAQB/view";
+        String url = "https://mastek-15d-dev-ed.develop.lightning.force.com/lightning/r/Contact/0035i0000KEia8dAQB/view";
 
-    URL pdf = new URL(url);
-    InputStream ip = pdf.openStream();
+        URL pdf = new URL(url);
+        InputStream ip = pdf.openStream();
 
-    BufferedInputStream bis = new BufferedInputStream(ip);
+        BufferedInputStream bis = new BufferedInputStream(ip);
 
-    PDDocument doc = PDDocument.load(bis);
+        PDDocument doc = PDDocument.load(bis);
 
-    PDFTextStripper strip = new PDFTextStripper();
-    String text =  strip.getText(doc);
-    System.out.println(text);
-    Assert.assertTrue(text.contains("Harshavardhan Selvaraj"));
-}
+        PDFTextStripper strip = new PDFTextStripper();
+        String text =  strip.getText(doc);
+        System.out.println(text);
+        Assert.assertTrue(text.contains("Harshavardhan Selvaraj"));
+    }
 
     public static void jsExecutor(WebElement element) {
         JavascriptExecutor jsclick = (JavascriptExecutor) driver;
@@ -187,7 +187,7 @@ public class SeleniumUtils {
 
         MimeMessage message = new MimeMessage(session);
         try {
-                                                                                                                                                                                                                                                               Thread.sleep(3000);
+            Thread.sleep(3000);
             message.setFrom(new InternetAddress(fromMail));
             message.addRecipients(Message.RecipientType.TO, String.valueOf(new InternetAddress(toMail)));
             message.setSubject(ConstantUtils.subjectMail);
@@ -228,7 +228,7 @@ public class SeleniumUtils {
 
             File source=ts.getScreenshotAs(OutputType.FILE);
 
-            FileHandler.copy(source, new File(ConstantUtils.screenshotPath +screenshotName+ ConstantUtils.screenshotExtension));
+            FileHandler.copy(source, new File(edu.mastek.utilsPackage.ConstantUtils.screenshotPath +screenshotName+ ConstantUtils.screenshotExtension));
 
         }
         catch (Exception e)
@@ -238,6 +238,4 @@ public class SeleniumUtils {
         }
     }
 
-        }
-
-
+}

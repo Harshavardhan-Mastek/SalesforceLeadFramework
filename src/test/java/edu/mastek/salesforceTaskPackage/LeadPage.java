@@ -102,6 +102,9 @@ public class LeadPage extends Hook {
 
     @FindBy(xpath = "//span[contains(text(),'Next')]")
     private WebElement recordNextBtn;
+    public WebElement getRecordNextBtnMethod() {
+        return recordNextBtn;
+    }
 
     @FindBy(xpath = "//span[contains(text(),'Open - Not Contacted')]")
     private WebElement leadStatus;
@@ -109,10 +112,14 @@ public class LeadPage extends Hook {
         return leadStatus;
     }
 
-
-    public WebElement getRecordNextBtnMethod() {
-        return recordNextBtn;
+    @FindBy(xpath = "//h2[text()='Your lead has been converted']")
+    private WebElement convertLead;
+    public WebElement getconvertLead() {
+        return convertLead;
     }
+
+
+
 
 
     //Constructor
@@ -160,29 +167,28 @@ public class LeadPage extends Hook {
         SeleniumUtils.highLightBackground(driver,currentGenName);
         SeleniumUtils.sendkeyValue(currentGenName,SeleniumUtils.loginExcelData(1,8, 1));
 
-
+//Screenshot for Lead page
         SeleniumUtils.captureScreenshot(driver, ConstantUtils.ssLeadPage);
 
         SeleniumUtils.untilElementToBeClickable(saveBtn, driver);
         saveBtn.click();
     }
 
+    //Converting the lead from creation
     public void leadConvertMethod() throws Exception {
 
 
-        Thread.sleep(5000);
+                                                                                                                                                                                                                                                                                                                                                                                                                                               Thread.sleep(5000);
         SeleniumUtils.highLightBackground(driver,convertBtn);
 
         SeleniumUtils.untilElementToBeClickable(convertBtn, driver);
         convertBtn.click();
 
-        Thread.sleep(5000);
+                                                                                                                                                                                                                                                                                                                                                                       Thread.sleep(5000);
         SeleniumUtils.untilElementToBeClickable(popConvertBtn, driver);
         popConvertBtn.click();
 
-        Thread.sleep(5000);
-
-        WebElement convertLead = driver.findElement(By.xpath(("//h2[text()='Your lead has been converted']")));
+                                                                                                                                                                                                                                                                                                                                                                                                                         Thread.sleep(5000);
         SeleniumUtils.highLightBackground(driver,convertLead);
 
         //Assertion for Converted lead message

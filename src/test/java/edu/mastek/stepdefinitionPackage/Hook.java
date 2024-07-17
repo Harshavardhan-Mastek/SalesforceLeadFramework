@@ -14,12 +14,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Hook {
 
-    public static Scenario scenario;
-
+    //Initializing the Webdriver
     public static WebDriver driver;
 
     @Before
     public static void setup( ) throws Exception {
+
         //HeadLess browser
 //        ChromeOptions opt = new ChromeOptions();
 //        opt.addArguments("window-size=1400,800");
@@ -34,12 +34,13 @@ public class Hook {
     }
 
     @After
-    public static void mailReport() throws EmailException, InterruptedException {
+    public static void closeBrowser() throws EmailException, InterruptedException {
 
+//Email sending
 
         SeleniumUtils.emailSend();
 
-        driver.quit();
+        //driver.quit();
 
     }
 

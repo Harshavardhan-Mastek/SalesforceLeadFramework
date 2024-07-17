@@ -12,9 +12,10 @@ import org.junit.runner.RunWith;
 features = {"src\\test\\java\\edu\\mastek\\featurePackage"},
         glue = "edu.mastek.stepdefinitionPackage",
         publish = true,
-        plugin = {"pretty","html:target/cucumber-reports/report.html" },
-        monochrome = true
+        plugin = {"pretty","html:target/cucumber-reports/report.html" }
+
 )
+
 //Runner class
 public class RunnerTestClass  {
 
